@@ -1,0 +1,123 @@
+@import url("https://fonts.cdnfonts.com/css/anek-odia");
+* {
+  font-family: "Anek Odia", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+.nav {
+  position: fixed;
+  background-color: rgb(251, 251, 251);
+  height: 60px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.costum-button {
+  background-color: white;
+  color: black;
+}
+.costum-button:hover {
+  background-color: black;
+}
+.c-button {
+  background-color: white;
+}
+.c-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.show {
+  opacity: 1;
+}
+
+.window {
+  background-color: rgb(251, 251, 251);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.contact {
+  cursor: pointer;
+  padding-top: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.contact:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.text {
+  width: 550px;
+  margin-left: 40px;
+}
+
+.mobile-menu {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-color: rgb(251, 251, 251);
+  border-radius: 5px;
+  z-index: 999;
+  right: 45px;
+  top: 70px;
+}
+.mobile-menu.show {
+  opacity: 1;
+}
+
+@media (min-width: 762px) {
+  .nav-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 762px) {
+  .nav-desktop {
+    display: none !important;
+  }
+  .text {
+    width: 350px;
+  }
+
+  .stripes {
+    cursor: pointer;
+    opacity: 1;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .stripes.open span {
+    transition: transform 0.5s ease-in-out;
+  }
+  .stripes.open span:first-child,
+  .stripes.open span:last-child {
+    transition: transform 0.5s ease-in-out;
+  }
+  .stripes span {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  .stripes.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+  }
+  .stripes.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .stripes.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+  }
+}
