@@ -1,4 +1,3 @@
-import React from "react";
 import Project from "./Project";
 
 const Certificates = () => {
@@ -12,7 +11,7 @@ const Certificates = () => {
           <Project
             title="Javascript Algorithms and Data Structures(Legacy)"
             btnText="View"
-            source="./resources/JavaScript1.png"
+            source="resources/JavaScript1.png"
             hideButton={true}
             href="https://www.freecodecamp.org/certification/JakobHoerl/javascript-algorithms-and-data-structures-v8"
           />
@@ -20,7 +19,7 @@ const Certificates = () => {
             title="Javascript Algorithms and Data Structures"
             btnText="View"
             hideButton={true}
-            source="./resources/JavaScript2.png"
+            source="resources/JavaScript2.png"
             href="https://www.freecodecamp.org/certification/JakobHoerl/javascript-algorithms-and-data-structures"
           />
           <Project

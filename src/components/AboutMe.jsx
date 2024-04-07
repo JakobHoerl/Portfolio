@@ -16,7 +16,7 @@ const AboutMe = () => {
               width: "200px",
               border: "1px solid black",
             }}
-            src="./resources/Profilbild.jpeg"
+            src="resources/Profilbild.jpeg"
             alt="Profilbild"
           />
         </div>

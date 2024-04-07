@@ -22,7 +22,7 @@ const Projects = () => {
           >
             <Project
               title="MovieWatchlist"
-              source="./resources/MovieWatchlist.png"
+              source="resources/MovieWatchlist.png"
               href="https://jakobhoerl.github.io/MovieWatchList-React/"
               cHref="https://codesandbox.io/p/github/JakobHoerl/Movie-Watchlist-react/main?file=%2Fsrc%2FMain%20Project%2FNavbar.js&import=true&workspaceId=5b60e0c2-b637-4466-bd0c-f3ecf44e6b0f"
               btnText="View"
@@ -34,7 +34,7 @@ const Projects = () => {
             </Project>
             <Project
               title="Cash Register"
-              source="./resources/CashRegister.png"
+              source="resources/CashRegister.png"
               href="https://jakobhoerl.github.io/CashRegister/"
               btnText="View"
               cHref="https://codesandbox.io/p/github/JakobHoerl/CashRegister/main?file=%2Findex.html%3A14%2C15&import=true&workspaceId=5b60e0c2-b637-4466-bd0c-f3ecf44e6b0f"
