@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
@@ -23,17 +23,7 @@ const Contact = () => {
             </span>
             hoerl-j@gmx.at
           </a>
-          <a
-            href="https://www.linkedin.com/in/jakob-h%C3%B6rl-371b59301/"
-            target="_blank"
-            rel="noopener noreference"
-            className="contact"
-          >
-            <span>
-              <FaLinkedin style={{ marginBottom: "3px", marginRight: "5px" }} />
-            </span>
-            Linkedin
-          </a>
+
           <a
             href="https://github.com/JakobHoerl"
             target="_blank"

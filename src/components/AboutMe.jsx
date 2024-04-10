@@ -30,7 +30,12 @@ const AboutMe = () => {
             <strong>JavaScript</strong>, <strong>React</strong> und{" "}
             <strong>Bootstrap</strong>.
           </p>
-          <Button text="Lebenslauf" width="300px" height="40px">
+          <Button
+            text="Lebenslauf"
+            width="300px"
+            height="40px"
+            href="resources/lebenslauf2.pdf"
+          >
             <MdOutlineFileDownload />
           </Button>
         </div>

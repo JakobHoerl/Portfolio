@@ -10,21 +10,21 @@ const Certificates = () => {
         <div className="row">
           <Project
             title="Javascript Algorithms and Data Structures(Legacy)"
-            btnText="View"
+            btnText="Ansehen"
             source="resources/JavaScript1.png"
             hideButton={true}
             href="https://www.freecodecamp.org/certification/JakobHoerl/javascript-algorithms-and-data-structures-v8"
           />
           <Project
             title="Javascript Algorithms and Data Structures"
-            btnText="View"
+            btnText="Ansehen"
             hideButton={true}
             source="resources/JavaScript2.png"
             href="https://www.freecodecamp.org/certification/JakobHoerl/javascript-algorithms-and-data-structures"
           />
           <Project
             title="Responsive Web-Design"
-            btnText="View"
+            btnText="Ansehen"
             hideButton={true}
             source="./resources/Responsive Web-Design.png"
             href="https://www.freecodecamp.org/certification/JakobHoerl/responsive-web-design"

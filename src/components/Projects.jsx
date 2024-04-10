@@ -25,7 +25,7 @@ const Projects = () => {
               source="resources/MovieWatchlist.png"
               href="https://jakobhoerl.github.io/MovieWatchList-React/"
               cHref="https://github.com/JakobHoerl/MovieWatchList-React/blob/main/src/Main%20Project/App.js"
-              btnText="View"
+              btnText="Ansehen"
             >
               <FaHtml5 title="HTML5" color="#e34c26" size={32} />
               <FaCss3Alt title="CSS" color="#264de4" size={32} />
@@ -36,7 +36,7 @@ const Projects = () => {
               title="Cash Register"
               source="resources/CashRegister.png"
               href="https://jakobhoerl.github.io/CashRegister/"
-              btnText="View"
+              btnText="Ansehen"
               cHref="https://github.com/JakobHoerl/CashRegister/blob/main/cash.js"
             >
               <FaHtml5 title="HTML5" color="#e34c26" size={32} />
