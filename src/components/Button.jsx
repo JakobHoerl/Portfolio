@@ -1,6 +1,11 @@
-const Button = ({ text, width, height, href, children }) => {
+const Button = ({ text, width, height, download, href, children }) => {
   return (
-    <a href={href} download target="_blank" rel="noopener noreference">
+    <a
+      href={href}
+      download={download}
+      target="_blank"
+      rel="noopener noreference"
+    >
       <button
         style={{
           fontSize: "18px",
