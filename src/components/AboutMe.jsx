@@ -34,8 +34,8 @@ const AboutMe = () => {
             text="Lebenslauf"
             width="300px"
             height="40px"
-            href="resources/Lebenslauf.pdf"
-            download="Lebenslauf.pdf"
+            href="resources/lebenslauf.pdf"
+            download="lebenslauf.pdf"
           >
             <MdOutlineFileDownload />
           </Button>
