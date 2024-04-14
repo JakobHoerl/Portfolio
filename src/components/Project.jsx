@@ -10,12 +10,12 @@ const Project = ({
   hideButton,
 }) => {
   return (
-    <div className="col-12 col-md-4 d-flex justify-content-center mb-5">
+    <div className="col d-flex justify-content-center mb-5">
       <div
         style={{
           padding: "20px",
           height: "400px",
-          width: "350px",
+          width: "400px",
         }}
         className="window d-flex  flex-column"
       >
