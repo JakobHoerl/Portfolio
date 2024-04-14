@@ -33,7 +33,7 @@ const Contact = () => {
             <span>
               <FaGithub style={{ marginBottom: "3px", marginRight: "5px" }} />
             </span>
-            GitHub
+            Github
           </a>
         </div>
       </div>
