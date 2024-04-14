@@ -3,7 +3,7 @@ import React from "react";
 const CodeButton = ({ cHref }) => {
   return (
     <div
-      title="Code via CodeSandbox"
+      title="Zeige Code"
       className="d-flex justify-content-end align-items-center"
     >
       <a href={cHref} target="_blank" rel="noopener noreference">
