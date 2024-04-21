@@ -11,14 +11,14 @@ const Project = ({
   onClick = null,
 }) => {
   return (
-    <div className="col d-flex justify-content-center mb-5">
+    <div className="col-12 col-md-10 col-lg-4 d-flex justify-content-center align-items-center mb-5">
       <div
         style={{
           padding: "20px",
           height: "400px",
           width: "400px",
         }}
-        className="window d-flex  flex-column"
+        className="window d-flex flex-column"
       >
         <a href={href} target="_blank" rel="noopener noreference">
           <div
