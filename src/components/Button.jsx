@@ -1,4 +1,13 @@
-const Button = ({ text, width, height, download, href, children }) => {
+const Button = ({
+  text,
+  width,
+  height,
+  download,
+  href,
+  children,
+  onClick = null,
+  source,
+}) => {
   return (
     <a
       href={href}
@@ -7,6 +16,7 @@ const Button = ({ text, width, height, download, href, children }) => {
       rel="noopener noreference"
     >
       <button
+        onClick={() => onClick(source)}
         style={{
           fontSize: "18px",
           width: width,

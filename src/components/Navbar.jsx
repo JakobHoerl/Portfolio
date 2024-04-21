@@ -63,45 +63,46 @@ export default function Navbar() {
             ></span>
           </div>
         </div>
-
-        <div
-          className={`border mobile-menu ${
-            click && "show"
-          } d-flex flex-column align-items-center justify-content-evenly`}
-        >
-          <a href="#about-me">
-            <span
-              onClick={handleClick}
-              style={{ cursor: "pointer", fontSize: "20px" }}
-            >
-              Über Mich
-            </span>
-          </a>
-          <a href="#projects">
-            <span
-              onClick={handleClick}
-              style={{ cursor: "pointer", fontSize: "20px" }}
-            >
-              Projekte
-            </span>
-          </a>
-          <a href="#certificates">
-            <span
-              onClick={handleClick}
-              style={{ cursor: "pointer", fontSize: "20px" }}
-            >
-              Zertifikate
-            </span>
-          </a>
-          <a href="#contacts">
-            <span
-              onClick={handleClick}
-              style={{ cursor: "pointer", fontSize: "20px" }}
-            >
-              Kontakte
-            </span>
-          </a>
-        </div>
+        {click && (
+          <div
+            className={`border mobile-menu ${
+              click ? "show" : "hide"
+            } d-flex flex-column align-items-center justify-content-evenly`}
+          >
+            <a href="#about-me">
+              <span
+                onClick={handleClick}
+                style={{ cursor: "pointer", fontSize: "20px" }}
+              >
+                Über Mich
+              </span>
+            </a>
+            <a href="#projects">
+              <span
+                onClick={handleClick}
+                style={{ cursor: "pointer", fontSize: "20px" }}
+              >
+                Projekte
+              </span>
+            </a>
+            <a href="#certificates">
+              <span
+                onClick={handleClick}
+                style={{ cursor: "pointer", fontSize: "20px" }}
+              >
+                Zertifikate
+              </span>
+            </a>
+            <a href="#contacts">
+              <span
+                onClick={handleClick}
+                style={{ cursor: "pointer", fontSize: "20px" }}
+              >
+                Kontakte
+              </span>
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

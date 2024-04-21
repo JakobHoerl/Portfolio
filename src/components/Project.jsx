@@ -3,11 +3,12 @@ import CodeButton from "./CodeButton";
 const Project = ({
   title,
   source,
-  href,
+  href = null,
   btnText,
   cHref,
   children,
   hideButton,
+  onClick = null,
 }) => {
   return (
     <div className="col d-flex justify-content-center mb-5">
@@ -23,6 +24,7 @@ const Project = ({
           <div
             style={{ height: "50px", width: "100%", cursor: "pointer" }}
             className="d-flex align-items-center justify-content-center"
+            onClick={() => onClick(source)}
           >
             <h4 style={{ textAlign: "center", alignItems: "center" }}>
               {title}
@@ -36,7 +38,10 @@ const Project = ({
           className="d-flex align-items-center justify-content-center flex-column"
         >
           <a href={href} target="_blank" rel="noopener noreference">
-            <div className=" container-img mb-1 d-flex justify-content-center">
+            <div
+              onClick={() => onClick(source)}
+              className=" container-img mb-1 d-flex justify-content-center"
+            >
               <img
                 style={{
                   height: "100px",
@@ -50,7 +55,14 @@ const Project = ({
               />
             </div>
           </a>
-          <Button text={btnText} width="200px" height="40px" href={href} />
+          <Button
+            onClick={onClick}
+            source={source}
+            text={btnText}
+            width="200px"
+            height="40px"
+            href={href}
+          />
           <div style={{ marginTop: "20px" }}>{children}</div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Project from "./Project";
 
-const Certificates = () => {
+const Certificates = ({ onClick }) => {
   return (
     <div
       style={{ marginTop: "250px" }}
@@ -10,9 +10,9 @@ const Certificates = () => {
       <div className="title d-flex justify-content-center">
         <h2 style={{ marginBottom: "70px" }}>Meine Zertifikate</h2>
       </div>
-      <div className="container">
+      <div className="container-fluid">
         <div
-          style={{ gap: "70px" }}
+          style={{ gap: "30px" }}
           className="row d-flex flex-row justify-content-center align-items-center"
         >
           <Project
@@ -20,14 +20,21 @@ const Certificates = () => {
             btnText="Ansehen"
             source="resources/JavaScript1.png"
             hideButton={true}
-            href="https://www.freecodecamp.org/certification/JakobHoerl/javascript-algorithms-and-data-structures-v8"
+            onClick={onClick}
           />
           <Project
             title="Javascript Algorithms and Data Structures(Legacy)"
             btnText="Ansehen"
             hideButton={true}
             source="resources/JavaScript2.png"
-            href="https://www.freecodecamp.org/certification/JakobHoerl/javascript-algorithms-and-data-structures"
+            onClick={onClick}
+          />
+          <Project
+            title="Responsive Web Design"
+            btnText="Ansehen"
+            hideButton={true}
+            source="resources/Responsive Web-Design.png"
+            onClick={onClick}
           />
         </div>
       </div>
