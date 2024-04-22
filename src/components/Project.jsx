@@ -26,7 +26,13 @@ const Project = ({
             className="d-flex align-items-center justify-content-center"
             onClick={() => onClick(source)}
           >
-            <h4 style={{ textAlign: "center", alignItems: "center" }}>
+            <h4
+              style={{
+                textAlign: "center",
+                alignItems: "center",
+                marginTop: "20px",
+              }}
+            >
               {title}
             </h4>
           </div>

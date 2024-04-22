@@ -8,7 +8,7 @@ const Contact = () => {
       style={{ height: "300px", marginTop: "100px" }}
       className="d-flex justify-content-center align-items-center flex-column"
     >
-      <h2>Meine Kontakte</h2>
+      <h2>Kontakt</h2>
       <div
         style={{ height: "100px", width: "400px", gap: "30px" }}
         className="window d-flex flex-row align-items-center justify-content-evenly"
