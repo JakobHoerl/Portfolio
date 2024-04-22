@@ -23,8 +23,8 @@ const AboutMe = () => {
         <div className="text d-flex align-items-start justify-content-center flex-column ">
           <h5 style={{ fontWeight: "bold" }}>Hallo, ich bin Jakob.</h5>
           <p style={{ marginTop: "10px", fontSize: "15px" }}>
-            Ende 2023 habe ich begonnen, mich aktiv in die Front-End-Entwicklung
-            einzuarbeiten und konnte mich mit diversen Kursen und eigene
+            Ende 2023 habe ich begonnen, mich aktiv in die Frontend Entwicklung
+            einzuarbeiten und konnte mich mit diversen Kursen und eigenen
             Projekten weiterentwickeln. Mittlerweile gehört zu meinem Web-Stack:{" "}
             <strong>HTML</strong>, <strong>CSS</strong>,{" "}
             <strong>JavaScript</strong>, <strong>React</strong>,{" "}
