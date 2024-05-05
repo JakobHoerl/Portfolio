@@ -11,7 +11,7 @@ const Project = ({
   onClick = null,
 }) => {
   return (
-    <div className="col-12 col-md-10 col-lg-3 d-flex justify-content-center align-items-center mb-5">
+    <div className="col-12 col-md-10 col-lg-4 d-flex justify-content-center align-items-center mb-5">
       <div
         style={{
           padding: "20px",
