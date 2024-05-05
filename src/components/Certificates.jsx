@@ -5,13 +5,14 @@ const Certificates = ({ onClick }) => {
     <div
       style={{ marginTop: "250px" }}
       id="certificates"
-      className=" container-fluid"
+      className="container-fluid d-flex align-items-center justify-content-center flex-column "
     >
       <div className="title d-flex justify-content-center">
         <h2 style={{ marginBottom: "70px" }}>Meine Zertifikate</h2>
       </div>
-      <div className="container">
-        <div className="row justify-content-center ">
+
+      <div className="row d-flex justify-content-center">
+        <div className=" mb-4 col d-flex justify-content-center align-items-center">
           <Project
             title="React, Redux & More "
             btnText="Ansehen"
@@ -19,6 +20,8 @@ const Certificates = ({ onClick }) => {
             hideButton={true}
             onClick={onClick}
           />
+        </div>
+        <div className=" mb-4 col d-flex justify-content-center align-items-center">
           <Project
             title="Javascript Algorithms and Data Structures"
             btnText="Ansehen"
@@ -26,6 +29,10 @@ const Certificates = ({ onClick }) => {
             hideButton={true}
             onClick={onClick}
           />
+        </div>
+      </div>
+      <div className="row ">
+        <div className="mb-4 col d-flex justify-content-center align-items-center">
           <Project
             title="Javascript Algorithms and Data Structures(Legacy)"
             btnText="Ansehen"
@@ -33,6 +40,8 @@ const Certificates = ({ onClick }) => {
             source="resources/JavaScript2.png"
             onClick={onClick}
           />
+        </div>
+        <div className="mb-4 col d-flex justify-content-center align-items-center">
           <Project
             title="Responsive Web Design"
             btnText="Ansehen"

@@ -15,7 +15,7 @@ const Projects = () => {
         >
           Meine Projekte
         </h2>
-        <div className="container">
+        <div className="container-fluid">
           <div
             style={{ gap: "30px", marginTop: "20px" }}
             className="row d-flex flex-row justify-content-center align-items-center"
