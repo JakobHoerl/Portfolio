@@ -13,6 +13,13 @@ const Certificates = ({ onClick }) => {
       <div className="container">
         <div className="row justify-content-center ">
           <Project
+            title="React, Redux & More "
+            btnText="Ansehen"
+            source="resources/React.png"
+            hideButton={true}
+            onClick={onClick}
+          />
+          <Project
             title="Javascript Algorithms and Data Structures"
             btnText="Ansehen"
             source="resources/JavaScript1.png"
