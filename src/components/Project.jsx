@@ -15,7 +15,7 @@ const Project = ({
       style={{
         padding: "20px",
         height: "400px",
-        width: "400px",
+        width: "350px",
       }}
       className="window d-flex flex-column"
     >

@@ -21,8 +21,8 @@ const Projects = () => {
         </h5>
         <div className="container-fluid">
           <div
-            style={{ gap: "30px", marginTop: "20px" }}
-            className="row d-flex flex-row justify-content-center align-items-center"
+            style={{ gap: "10px", marginTop: "20px" }}
+            className=" row d-flex flex-row justify-content-center align-items-center"
           >
             <Project
               title="Supplement Store SPAs"
@@ -39,6 +39,7 @@ const Projects = () => {
               <FaNodeJs title="NodeJS" color="#22D046" size={32} />
               <TbBrandMysql title="MySQL" color="#3776C2" size={32} />
             </Project>
+
             <Project
               title="MovieWatchlist"
               source="resources/MovieWatchlist.png"
@@ -51,6 +52,7 @@ const Projects = () => {
               <TbBrandJavascript title="JavaScript" color="yellow" size={32} />
               <FaReact title="React" color="#61DBFB" size={32} />
             </Project>
+
             <Project
               title="Cash Register"
               source="resources/CashRegister.png"
