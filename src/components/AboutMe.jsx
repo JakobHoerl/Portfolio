@@ -27,8 +27,9 @@ const AboutMe = () => {
             einzuarbeiten und konnte mich mit diversen Kursen und eigenen
             Projekten weiterentwickeln. Mittlerweile gehört zu meinem Web-Stack:{" "}
             <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, <strong>React</strong>,{" "}
-            <strong>Redux</strong> und <strong>Bootstrap</strong>.
+            <strong>JavaScript/Typescript</strong>, <strong>React</strong>,{" "}
+            <strong>Redux, </strong> <strong>Bootstrap</strong>, sowie{" "}
+            <strong>Node.js </strong> und <strong>MySQL </strong>im Backend.
           </p>
           <Button
             text="Lebenslauf"

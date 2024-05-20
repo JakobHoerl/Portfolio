@@ -1,6 +1,7 @@
 import Project from "./Project";
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { TbBrandJavascript } from "react-icons/tb";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import { TbBrandJavascript, TbBrandMysql } from "react-icons/tb";
+import { BiLogoTypescript } from "react-icons/bi";
 import Button from "./Button";
 import { FaGithub } from "react-icons/fa";
 
@@ -15,11 +16,29 @@ const Projects = () => {
         >
           Meine Projekte
         </h2>
+        <h5 className="d-flex justify-content-center mb-5">
+          Alle Projekte wurden eigenständig programmiert und nicht nachgebaut.
+        </h5>
         <div className="container-fluid">
           <div
             style={{ gap: "30px", marginTop: "20px" }}
             className="row d-flex flex-row justify-content-center align-items-center"
           >
+            <Project
+              title="Supplement Store SPAs"
+              source="resources/FritzFixFit.png"
+              href="https://fritzfixfit.netlify.app/"
+              btnText="Ansehen"
+              cHref="https://github.com/JakobHoerl/FritzFixFit"
+            >
+              <FaHtml5 title="HTML5" color="#e34c26" size={32} />
+              <FaCss3Alt title="CSS" color="#264de4" size={32} />
+              <TbBrandJavascript title="JavaScript" color="yellow" size={32} />
+              <BiLogoTypescript title="TypeScript" color="#57C7FA" size={32} />
+              <FaReact title="React" color="#61DBFB" size={32} />
+              <FaNodeJs title="NodeJS" color="#22D046" size={32} />
+              <TbBrandMysql title="MySQL" color="#3776C2" size={32} />
+            </Project>
             <Project
               title="MovieWatchlist"
               source="resources/MovieWatchlist.png"
