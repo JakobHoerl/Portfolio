@@ -16,7 +16,10 @@ const Projects = () => {
         >
           Meine Projekte
         </h2>
-        <h5 className="d-flex justify-content-center mb-5">
+        <h5
+          style={{ textAlign: "center" }}
+          className="d-flex justify-content-center mb-5"
+        >
           Alle Projekte wurden eigenständig programmiert und nicht nachgebaut.
         </h5>
         <div className="container-fluid">
