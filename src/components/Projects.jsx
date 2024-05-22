@@ -28,7 +28,7 @@ const Projects = () => {
             className=" row d-flex flex-row justify-content-center align-items-center"
           >
             <Project
-              title="Supplement Store SPAs"
+              title="Supplement Store SPA"
               source="resources/FritzFixFit.png"
               href="https://fritzfixfit.netlify.app/"
               btnText="Ansehen"
